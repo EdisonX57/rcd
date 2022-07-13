@@ -8,12 +8,13 @@
     <title>Contacto </title>
     <link rel="stylesheet" href="diseñoform.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/58c10a5f91.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <nav>
+    <nav id="seccion">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <ic class="fa-solid fa-bars"></i>
@@ -25,13 +26,14 @@
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Servicios</a></li>
+            <li><a href="formualrio.htm">Contacto</a></li>
+            <li><a href="#servicios" id="btn">Servicios</a></li>
         </ul>
 
     </nav>
 
 
-    <form action="" class="form">
+    <form action="" class="form" id="formulario">
         <div class="form-container">
             <h2 class="form-title">Contactame</h2>
             <input type="text" class="form_input" placeholder="Nombre">
@@ -42,6 +44,61 @@
     </form>
 
 
+
+    <footer id="servicios">
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="iconProgramer.jpg" alt="">
+                </div>
+                <div class="terms">
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit repellat nulla magni qui minus
+                        debitis incidunt odio repudiandae rem sequi iusto amet dolor deleniti aperiam, neque architecto,
+                        inventore consequuntur rerum.</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="#">Desarrollo Web</a>
+                <a href="#">Desarrollo Escritorio</a>
+                <a href="#">Desarrollo IOS</a>
+                <a href="#">Desarrollo Android</a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Acerca de</a>
+                <a href="#">Trabajo</a>
+                <a href="#">Proceso</a>
+                <a href="#">Servicio</a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fa-brands fa-youtube-square"></i> Youtube</a>
+                <a href="#"><i class="fa-brands fa-instagram-square"></i> Instagram</a>
+            </div>
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados ® 2022</p>
+        </div>
+
+
+
+    </footer>
+
+
+    <script src="funcion.js"></script>
 
 
 

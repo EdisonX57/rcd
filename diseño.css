@@ -20,7 +20,7 @@ body{
 .titulo{
     line-height: 1.3em;
     font-size: 2rem;
-    margin-top: -60px;
+    margin-top: -90px;
 }
 
 
@@ -56,8 +56,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#texto:hover{
-    border: #2B95FC 1px solid;
+#texto{
+    border: 1px solid #ccc;
 }
 
 #texto .text1 p{
@@ -214,4 +214,88 @@ li a.active, li a:hover{
    
 
     
+}
+
+footer{
+    width: 100%;
+    padding: 30px 0;
+    background-image: url(background-footer.svg);
+    background-size: cover;
+   margin-top: 90px;
+   
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 15px;
+
+}
+
+.box__footer .logo img{
+    width: 100px;
+    margin-top: -100px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color:#000;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin:auto;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
 }
