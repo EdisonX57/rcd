@@ -202,8 +202,16 @@ li a.active, li a:hover{
 
         left: 0;
         background: #2c3e50;
-       
+        margin-left: -30px;  
+        
     }
+
+
+    .titulo{
+        font-size: 20px;
+    }
+
+   
 
     
 }
