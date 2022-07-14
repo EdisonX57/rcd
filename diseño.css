@@ -20,7 +20,7 @@ body{
 .titulo{
     line-height: 1.3em;
     font-size: 2rem;
-    margin-top: -90px;
+    margin-top: -4px;
 }
 
 
@@ -105,6 +105,7 @@ nav{
     background-color: #2B95FC;
     height: 80px;
     width: 100%; 
+    position: fixed;
     
 }
 .enlace{
@@ -165,6 +166,10 @@ li a.active, li a:hover{
 }
 
 @media (max-width: 858px){
+
+    
+
+
     .checkbtn{
         display: block;
         overflow-y: hidden;
@@ -203,6 +208,10 @@ li a.active, li a:hover{
         left: 0;
         background: #2c3e50;
         margin-left: -30px;  
+        margin-top: -3px;
+        height: 300px;
+        opacity: 1;
+        
         
     }
 

@@ -1,6 +1,3 @@
-document.getElementById("btn").onclick = function(){
-    document.getElementById("seccion").style.display = "none";
-}
 
 let animado = document.querySelectorAll("#seccion");
 function mostrarScroll(){
@@ -15,4 +12,3 @@ function mostrarScroll(){
 }
 
 window.addEventListener('scroll', mostrarScroll);
-
